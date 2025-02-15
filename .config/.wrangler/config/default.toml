@@ -1,0 +1,20 @@
+oauth_token = "hI_O5rYaa2IZK7aR0apVGxPkrrpoc7wpElbsMv-T9k4.vxd5r0ntPm4z1y_2mJrO-ZkH-FG0_axFyfmcTEzpWiE"
+expiration_time = "2025-02-12T06:56:25.297Z"
+refresh_token = "ihxKXOujm6Bn7stmxumxbfg51tzwUVzVjRWimW2F_5k.3V9OQ6hPl-bJfue2bCXikjtrbHvgYbvLWKgqVd62w1E"
+scopes = [
+  "account:read",
+  "user:read",
+  "workers:write",
+  "workers_kv:write",
+  "workers_routes:write",
+  "workers_scripts:write",
+  "workers_tail:read",
+  "d1:write",
+  "pages:write",
+  "zone:read",
+  "ssl_certs:write",
+  "ai:write",
+  "queues:write",
+  "pipelines:write",
+  "offline_access"
+]

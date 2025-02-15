@@ -148,9 +148,6 @@ return {
       vim.list_extend(opts.ensure_installed, {
         "tsx",
         "typescript",
-        "python",
-        "rust",
-        "javascript",
       })
     end,
   },
