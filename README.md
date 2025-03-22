@@ -1,3 +1,3 @@
-# Config 
+# Config
 
-All dotfiles config of my shell, neovim and so on.
+All dotfiles config for my shell (bash), text editor (neovim) and so on.
