@@ -1,0 +1,30 @@
+[init]
+	defaultBranch = main
+[difftool "sourcetree"]
+	cmd = "'' "
+[mergetool "sourcetree"]
+	cmd = "'' "
+	trustExitCode = true
+[alias]
+	add-commit = !git add -A && git commit -m
+	count-lines = !git ls-files | xargs wc -l
+	check-lines-by-author = "! git log --author=\"$1\" --pretty=tformat: --numstat | awk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf \"added lines: %s, removed lines: %s, total lines: %s\\n\", add, subs, loc }' #"
+	quick-stats = ! /c/Users/Fahad/git-quick-stats/git-quick-stats
+	st = status
+	ph = push
+	sbh = !git checkout
+	nbh = !git checkout -b
+	rbh = !git branch -r
+	lbh = !git branch
+	po = !git push -u origin
+	dlbh = !git branch -d
+	drbh = !git push origin -D
+	pr = !git remote prune origin
+
+[includeIf "gitdir:~/projects/personal/**"]
+        path = ~/projects/personal/.gitconfig
+[includeIf "gitdir:~/projects/octopusx/**"]
+        path = ~/projects/octopusx/.gitconfig
+[user]
+	email = robiulhossain7475@gmail.com
+	name = coder7475
