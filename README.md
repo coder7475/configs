@@ -12,8 +12,9 @@ Welcome to my personal configuration repository! This repo contains settings, al
 
 This repo manages the following:
 
-- Shell settings (`.bashrc`)
+- Shell settings (`.bashrc`, `.zshrc`)
 - Git configuration (`.gitconfig`)
+- Tmux configuration (`.tmux.conf`)
 - Vim/Neovim config (`.vimrc`, `.config/nvim/`)
 
 ---
@@ -76,6 +77,9 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/coder7475/configs/main/s
 ```
 configs/
 ├── .bashrc
+├── .zshrc
+├── .tmux.conf
+├── .gitconfig
 ├── .config/
 │   └── nvim/
 │       ├── init.vim

@@ -35,4 +35,3 @@ ln -sf "$CLONE_DIR/.config/nvim" "$NVIM_CONFIG_DIR"
 echo "✅ Linked Neovim config"
 
 echo "🎉 Setup complete! Run 'source ~/.bashrc' or restart your terminal."
-
