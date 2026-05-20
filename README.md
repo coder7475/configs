@@ -1,3 +1,9 @@
+# Linux Setup Script
+
+```sh
+curl -fsSL https://raw.githubusercontent.com/coder7475/configs/main/linux_setup.sh | bash
+```
+
 # Config
 
 All dotfiles config for my shell (bash), text editor (neovim) and so on.
